@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SASMShop</title>
+
+    <!-- font awesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+</head>
+<body>
+    <!--barre de navigation-->
+
+    <header class="header">
+
+        <label class="logo"><i class="fas fa-shopping-cart">SASM Shop</i></label>
+        
+        <nav class="navbar">
+            <a href="#home">Acceuil</a>
+            <a href="#Eté">Eté</a>
+            <a href="#Hijab">Hijabs</a>
+            <a href="#Burkini">Burkini</a>
+            <a href="#propos">A Propos De Nous</a>
+            <a href="#contacts">contacts</a>
+        </nav>
+    
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+    
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="Recherche.....">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+    
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbIzq6ocg0C7_onurvusRrQVvhn6mRrVOfCg&usqp=CAU" alt="">
+                <div class="content">
+                    <h3>Article 01</h3>
+                    <div class="price">15000 Fcfa <br> -10%</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqrJtQioxcYgJSV-HAQqV1bOwBi4UhPdmn2g&usqp=CAU" alt="">
+                <div class="content">
+                    <h3>Article 02</h3>
+                    <div class="price">40000 Fcfa <br> -30%</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="https://www.chicandmodesty.com/23455-home_default/ensemble-moda-bleu.jpg" alt="">
+                <div class="content">
+                    <h3>Article 03</h3>
+                    <div class="price">10000 Fcfa <br> -50%</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="https://www.chicandmodesty.com/22479-home_default/hijab-luxe-mousseline-bleu-clair.jpg" alt="">
+                <div class="content">
+                    <h3>Article 04</h3>
+                    <div class="price">60000 Fcfa</div>
+                </div>
+            </div>
+            <a href="#" class="btn">Passez à la caisse</a>
+        </div>
+    
+    </header>
+    <!-- fin de la barre de navigation-->
+
+    <!-- swiper section -->
+
+    <div class="slider">
+		<!-- fade css -->
+		<div class="myslide fade" id="home">
+			<div class="txt">
+				<h1>COLLECTION DUBAI</h1>
+				<p>Une collection Chic et Moderne</p>
+                <a href="#" class="btn-2">J'en Profite</a>
+			</div>
+			<img Class="img" src="https://www.chicandmodesty.com/22181-home_default/hijab-luxe-mousseline-taupe-clair.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>NOUVELLE HIJABS</h1>
+				<p>Le foulard islamique est une piéce indispensable <br> de la garde-robe de la femme musulmane. Elle <br> est plus qu'un style et une mode.  </p>
+                <a href="#" class="btn-2">Je découvre</a>
+			</div>
+			<img Class="img" src="https://www.chicandmodesty.com/16076-home_default/hijab-luxe-mousseline-vert-lagon.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>COLLECTION BURKINI</h1>
+				<p>Maillot de bain pour femme musulmane</p>
+                <a href="#" class="btn-2">En achetez maintenant</a>
+			</div>
+			<img Class="img" src="https://www.chicandmodesty.com/23597-home_default/bonnet-burkini-choco.jpg" style="width: 100%; height: 100%;">
+		</div>
+
+        
+		<!-- onclick js -->
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <!-- swiper section -->
+    <!-- menu section starts  -->
+
+<section class="menu" id="Eté">
+
+    <h1 class="heading"> Collection d'<span>été</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="https://www.chicandmodesty.com/18315-home_default/hijab-sedef-satine-bleu-clair.jpg" alt="">
+            <h3>Robe en soie</h3>
+            <div class="price">14000 Fcfa <span>16000 Fcfa</span></div>
+            <a href="#" class="btn-1">Ajouter au panier</a>
+        </div>
+
+        <div class="box">
+            <img src="https://www.chicandmodesty.com/23374-home_default/chemise-satine-pouring-kaki.jpg" alt="">
+            <h3>Ensemble Chemise Satine</h3>
+            <div class="price">15000 Fcfa <span>20000 Fcfa</span></div>
+            <a href="#" class="btn-1">Ajouter au panier</a>
+        </div>
+
+        <div class="box">
+            <img src="https://www.chicandmodesty.com/23414-home_default/ensemble-moda-beige.jpg" alt="">
+            <h3>Ensemble moda beige</h3>
+            <div class="price">20000 Fcfa <span>22000 Fcfa</span></div>
+            <a href="#" class="btn-1">Ajouter au panier</a>
+        </div>
+
+        <div class="box">
+            <img src="https://www.chicandmodesty.com/23385-home_default/chemise-longue-verte-.jpg" alt="">
+            <h3>Chemise Longue</h3>
+            <div class="price">8000 Fcfa <span>10000 Fcfa</span></div>
+            <a href="#" class="btn-1">Ajouter au panier</a>
+        </div>
+
+        <div class="box">
+            <img src="https://www.chicandmodesty.com/23455-home_default/ensemble-moda-bleu.jpg" alt="">
+            <h3>Ensemble fluide</h3>
+            <div class="price">35000 Fcfa <span>40000 Fcfa</span></div>
+            <a href="#" class="btn-1">Ajouter au panier</a>
+        </div>
+
+        <div class="box">
+            <img src="https://www.chicandmodesty.com/23426-home_default/tunique-pouring-rose.jpg" alt="">
+            <h3>Tunique pouring</h3>
+            <div class="price">10000 Fcfa<span>12000 Fcfa</span></div>
+            <a href="#" class="btn-1">Ajouter au panier</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- menu section ends -->
+
+<section class="products" id="Hijab">
+
+    <h1 class="heading"> vos <span>Hijabs</span> </h1>
+    <h2 class="life">Une boutique hijab se doit de proposer une très large gamme de hijabs, châles, foulards, turbans et bonnets aux femmes voilées. Nous vous proposons donc tous styles de hijabs adaptés aux différentes saisons. Des hijabs léger , en mousseline et en coton pour l'été. Pour l'hiver des hijabs chaud de qualité confectionnés dans de magnifiques tissus. Vous trouverez également des hijabs de fêtes pour toutes vos occasions.</h2>
+
+    <div class="box-container">
+
+        <div class="box">
+            
+            <div class="image">
+                <img src="https://www.chicandmodesty.com/23528-home_default/bonnet-turban-plisse-bleu-fonce.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Bonnet Turban </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">4500 Fcfa</div>
+            </div>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+            </div>
+        </div>
+
+        <div class="box">
+           
+            <div class="image">
+                <img src="https://www.chicandmodesty.com/22479-home_default/hijab-luxe-mousseline-bleu-clair.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3> Hijab mousseline clair</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">4000 Fcfa</div>
+            </div>
+             <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="https://www.chicandmodesty.com/13735-home_default/hijab-mousseline-terre-cuite.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Hijab mousseline terre cuite</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">3500 Fcfa</div>
+            </div>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a> 
+                <a href="#" class="fas fa-shopping-cart"></a>
+            </div>
+        </div>
+
+        <div class="box">
+           
+            <div class="image">
+                <img src="https://www.chicandmodesty.com/13700-home_default/hijab-mousseline-gris-fonce.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Hijab mousseline gris foncé</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">1500 Fcfa </div>
+            </div>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a> 
+                <a href="#" class="fas fa-shopping-cart"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            
+            <div class="image">
+                <img src="https://www.chicandmodesty.com/22181-home_default/hijab-luxe-mousseline-taupe-clair.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Hijab mousseline taupe clair</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">2500 Fcfa</div>
+            </div>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a> 
+                <a href="#" class="fas fa-shopping-cart"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            
+            <div class="image">
+                <img src="https://www.chicandmodesty.com/16076-home_default/hijab-luxe-mousseline-vert-lagon.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Hijab mousseline vert lagon</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">2000 Fcfa</div>
+            </div>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a> 
+                <a href="#" class="fas fa-shopping-cart"></a>
+            </div>
+        </div>
+
+        <div class="box">
+           
+            <div class="image">
+                <img src="https://www.chicandmodesty.com/10819-home_default/hijab-luxe-mousseline-glow.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Hijab mousseline glow</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">3000 Fcfa </div>
+            </div> 
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a> 
+                <a href="#" class="fas fa-shopping-cart"></a>
+            </div>
+        </div>
+
+        <div class="box">
+           
+            <div class="image">
+                <img src="https://www.chicandmodesty.com/10726-home_default/hijab-luxe-mousseline-beige-clair.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Hijab mousseline beige clair</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">3500 Fcfa </div>
+            </div>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a> 
+                <a href="#" class="fas fa-shopping-cart"></a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!-- Burkini section starts  -->
+
+<section class="menu" id="Burkini">
+
+    <h1 class="heading"> Collection <span>burkini</span> </h1>
+    <h2 class="life">Profitez de vos vacances avec nos burkinis qui vous permetteront de vous baigner tout en pudeur. Nous avons séléctionné les tissus les plus adéquats pour une opacité optimale, séchage ultra rapide et qui ne colle pas. Bonne vacances</h2>
+
+    <div class="box-container">
+
+        <div class="box-1">
+            <img src="https://www.chicandmodesty.com/23581-home_default/bonnet-burkini-bleu-fonce.jpg" alt="">
+            <h3>Bonnet Burkini bleu foncé</h3>
+            <div class="price">20000 Fcfa </div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">Ajouter au panier</a>
+        </div>
+
+        <div class="box-1">
+            <img src="https://www.chicandmodesty.com/23110-home_default/burkini-palazzo-kaki.jpg" alt="">
+            <h3>Burkini palazzo kaki</h3>
+            <div class="price">30000 Fcfa </div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i> 
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              
+            </div>
+            <a href="#" class="btn">Ajouter au panier</a>
+        </div>
+
+        <div class="box-1">
+            <img src="https://www.chicandmodesty.com/23126-home_default/burkini-hijab-long-kaki-fonce.jpg" alt="">
+            <h3>Burkini hijab long kaki foncé</h3>
+            <div class="price">18000 Fcfa </div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+                
+            </div>
+            <a href="#" class="btn">Ajouter au panier</a>
+        </div>
+
+        <div class="box-1">
+            <img src="https://www.chicandmodesty.com/22117-home_default/burkini-palazzo-gris-.jpg" alt="">
+            <h3>Burkini palazzo gris</h3>
+            <div class="price">35000 Fcfa</div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <a href="#" class="btn">Ajouter au panier</a>
+        </div>
+
+        <div class="box-1">
+            <img src="https://www.chicandmodesty.com/22108-home_default/burkini-hijab-long-choco.jpg" alt="">
+            <h3>Burkini hijab long choco</h3>
+            <div class="price">20000 Fcfa</div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">Ajouter au panier</a>
+        </div>
+
+        <div class="box-1">
+            <img src="https://www.chicandmodesty.com/17636-home_default/burkini-palazzo-noir.jpg" alt="">
+            <h3>Burkini palazzo noir</h3>
+            <div class="price">22000 Fcfa</div>
+            <div class="stars">
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                
+            </div>
+            <a href="#" class="btn">Ajouter au panier</a>
+        </div>
+
+        <div class="box-1">
+            <img src="https://www.chicandmodesty.com/23567-tm_large_default/bonnet-turban-plisse-blanc.jpg" alt="">
+            <h3>Bonnet turban plisse blanc</h3>
+            <div class="price">19000 Fcfa</div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">Ajouter au panier</a>
+        </div>
+
+        <div class="box-1">
+            <img src="https://www.chicandmodesty.com/23574-home_default/bonnet-burkini-noir.jpg" alt="">
+            <h3>Bonnet burkini noir</h3>
+            <div class="price">17000 Fcfa</div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">Ajouter au panier</a>
+        </div>
+
+        <div class="box-1">
+            <img src="https://www.chicandmodesty.com/23597-home_default/bonnet-burkini-choco.jpg" alt="">
+            <h3>Bonnet Burkini choco</h3>
+            <div class="price">11000 Fcfa</div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">Ajouter au panier</a>
+        </div>
+    </div>
+
+</section>
+<!--à propos de nous-->
+
+
+<section class="about" id="propos">
+
+    <h1 class="heading-1"><span> à propos </span> de nous </h1>
+
+    <div class="row">
+        <div class="content">
+           
+            <p> 
+                Tout d'abord commençons par vous souhaiter la bienvenue ainsi qu'une agréable visite sur notre site de vêtements musulmane. Comme vous avez pu le constater <span>SASM Shop</span>  est une boutique en ligne de vente de vêtements pour femmes musulmanes modernes. <br>
+                Tuniques, gilets,Robes, abayas, pantalons, foulards, jupes, Chic & Modesty propose une ligne de prêt à porter alliant pudeur et modernité, idéale pour les femmes musulmanes dans les sociétés occidentales.
+            </p>
+            <br>
+            <p>
+                L'idée est née au croisement de plusieurs désirs et besoins dont les deux principaux sont de pouvoir travailler une grande partie du temps à partir de mon foyer et d'exercer une activité en rapport avec le prêt a porter.
+                C'est donc tout naturellement que d'ouvrir un site proposant ma conception de la tenue femme voilée m'est apparu comme une évidence.
+            </p>
+            <p>
+                L'équipe SASM Shop déploie beaucoup d’énergie à sélectionner des articles de bonne qualité à des prix abordables, et composer des ensembles pour tous les goûts, tous les ensembles vendus sur SASM Shop sont composés d'articles vendus sur le site. l'achat d'un ensemble permet d'économiser en moyenne 20% sur les prix des articles.
+            </p>   
+            <br>
+            <p>
+                Retours gratuits : Une erreur de taille, un mauvais choix..? ce n'est pas un problème, SASM Shop prend en charge les frais de retour,
+                et rembourse sous 24 heures.
+            </p>
+            <a href="#" class="btn">En savoir plus</a>
+        </div>
+
+    </div>
+
+</section>
+<!--à propos de nous ends-->
+
+<!-- contact section start -->
+<section class="contact" id="contacts">
+
+    <h1 class="heading"> <span>Contactez</span>- Nous </h1>
+
+    <div class="row">
+        <form action="">
+            <h3>Donnez vos identifiants svp</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="nom">
+            </div> 
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="Prénom">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="compte gmail">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input  placeholder="numéro de téléphone">
+            </div>
+            <input type="submit" value="contacter nous maintenant" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+<footer>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Tous nos services</a></li>
+                        <li><a href="#">Suivi de commande</a></li>
+                        <li><a href="#">La livraison</a></li>
+                        <li><a href="#">Retour, échange, rétractation</a></li>
+                        <li><a href="#">Rappels produits</a></li>
+                        <li><a href="#">Paiement</a></li>
+                        <li><a href="#">Programme de fidélité</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Besoin d'aide</h4>
+                    <ul>
+                        <li><a href="#" >Nous Contacter</a></li>
+                        <li><a href="#" >Données personnelles</a></li>
+                        <li><a href="#" >Les cookies</a></li>
+                        <li><a href="#" >Mode de paiement</a></li>v
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Société</h4>
+                    <ul>
+                        <li><a href="#">Magasins</a></li>
+                        <li><a href="#">Recrutement </a></li>
+                        <li><a href="#">Franchise: Ouvrir un SASM Shop </a></li>
+                        <li><a href="#">Index égalité H/F</a></li>
+                        <li><a href="#">Dispositif d’alerte</a></li>
+                        <li><a href="#">Mode + durable</a></li>
+                        <li><a href="#">Conditions générales de vente</a></li>
+                        <li><a href="#">Déclaration conformité</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Marketplace</h4>
+                    <ul> 
+                        <li><a href="#">Devenir vendeur</a></li>
+                        <li><a href="#">CGU</a></li>
+                        <li><a href="#">Conditions commerciales</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4> Suivez-Nous</h4>
+                    <div class="social-links"> 
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>     
+</footer> 
+    <!-- footer -->
+
+
+    <!-- custom js file link  -->
+<script src="script.js"></script>
+</body>
+</html>
